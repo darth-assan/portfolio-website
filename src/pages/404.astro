@@ -1,8 +1,21 @@
 ---
-import Hero from '../components/Hero.astro';
-import BaseLayout from '../layouts/BaseLayout.astro';
+import Hero from "../components/Hero.astro";
+import BaseLayout from "../layouts/BaseLayout.astro";
+import Pill from "../components/Pill.astro";
+import Icon from "../components/Icon.astro";
 ---
 
 <BaseLayout title="Not Found" description="404 Error — this page was not found">
-	<Hero title="Page Not Found" tagline="Not found" />
+  <Hero title="Page Not Found" tagline="Let's go home" />
+  <a href="/" class="roles">
+    <Pill><Icon icon="arrow-left" size="1.33em" />Home</Pill>
+  </a>
 </BaseLayout>
+
+<style>
+  .roles {
+    display: flex;
+    text-decoration: none;
+    margin: 5rem auto;
+  }
+</style>
