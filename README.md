@@ -1,7 +1,3 @@
-# Portfolio website folked from Astro Starter Kit: Portfolio
-
-```
-npm create astro@latest -- --template portfolio
-```
+This repository serves as a portfolio highlighting my skills, experience, educational background and ambitions.
 
 
